@@ -1,0 +1,16 @@
+usar este comando para crear docker cambiando las rutas combeniente 
+
+>>docker run -it --name qml_usable `
+    -v "D:\usuario\Desktop\qml_spines_docker_intel_sdk:/workspace" `
+    intellabs/intel_quantum_sdk:latest /bin/bash
+
+
+comando para activar entorno virtual 
+>> source /opt/intel/quantum-sdk/docker-intel_quantum_sdk_1.1.1.2024-11-15T22_03_32+00_00/virtualenv/bin/activate 
+
+deteccion de kernel 
+>>python -m pip install ipykernel
+
+ejemplos de python en el contenedor 
+
+>> cd /opt/intel/quantum-sdk/docker-intel_quantum_sdk_1.1.1.2024-11-15T22_03_32+00_00/python-quantum-examples

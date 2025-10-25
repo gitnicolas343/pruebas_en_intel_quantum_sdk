@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: DRU_library
+Version: 0.1
+Summary: Quantum data re-uploading library using PennyLane.
+Author: Nicolas Mendoza
+Author-email: smendozas@unal.edu.co
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: pennylane>=0.35
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
