@@ -11,6 +11,9 @@ comando para activar entorno virtual
 deteccion de kernel 
 >>python -m pip install ipykernel
 
+para activar entorno auxialiar mientras se detecta el real ejecutar despues de activar el entorno
+>> python3 -m ipykernel install --user --name=intelqsdk_env --display-name "Intel Quantum SDK"
+
 ejemplos de python en el contenedor 
 
 >> cd /opt/intel/quantum-sdk/docker-intel_quantum_sdk_1.1.1.2024-11-15T22_03_32+00_00/python-quantum-examples

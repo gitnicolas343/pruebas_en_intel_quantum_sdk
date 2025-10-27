@@ -1,0 +1,145 @@
+	.text
+	.file	"ghz.cpp"
+	.section	.qbbs_text,"ax",@progbits
+	.globl	"_Z24void callGHZ<5>().QBB.0.v.stub" // -- Begin function _Z24void callGHZ<5>().QBB.0.v.stub
+	.type	"_Z24void callGHZ<5>().QBB.0.v.stub",@function
+"_Z24void callGHZ<5>().QBB.0.v.stub":   // @"_Z24void callGHZ<5>().QBB.0.v.stub"
+// %bb.0:                               // %aqcc.quantum
+	quprep QUBIT[0] (slice_idx=1)
+	quprep QUBIT[1] (slice_idx=0)
+	quprep QUBIT[2] (slice_idx=0)
+	quprep QUBIT[3] (slice_idx=0)
+	quprep QUBIT[4] (slice_idx=0)
+	qurotxy QUBIT[0], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[0], 3.141593e+00, 0.000000e+00 (slice_idx=0)
+	qurotxy QUBIT[1], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[0], QUBIT[1], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[1], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[2], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[1], QUBIT[2], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[2], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[3], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[2], QUBIT[3], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[3], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[4], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[3], QUBIT[4], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[4], 1.570796e+00, 1.570796e+00 (slice_idx=2)
+	return
+.Lfunc_end0:
+	.size	"_Z24void callGHZ<5>().QBB.0.v.stub", .Lfunc_end0-"_Z24void callGHZ<5>().QBB.0.v.stub"
+                                        // -- End function
+	.globl	"_Z25void callGHZ<10>().QBB.1.v.stub" // -- Begin function _Z25void callGHZ<10>().QBB.1.v.stub
+	.type	"_Z25void callGHZ<10>().QBB.1.v.stub",@function
+"_Z25void callGHZ<10>().QBB.1.v.stub":  // @"_Z25void callGHZ<10>().QBB.1.v.stub"
+// %bb.0:                               // %aqcc.quantum
+	quprep QUBIT[0] (slice_idx=1)
+	quprep QUBIT[1] (slice_idx=0)
+	quprep QUBIT[2] (slice_idx=0)
+	quprep QUBIT[3] (slice_idx=0)
+	quprep QUBIT[4] (slice_idx=0)
+	quprep QUBIT[5] (slice_idx=0)
+	quprep QUBIT[6] (slice_idx=0)
+	quprep QUBIT[7] (slice_idx=0)
+	quprep QUBIT[8] (slice_idx=0)
+	quprep QUBIT[9] (slice_idx=0)
+	qurotxy QUBIT[0], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[0], 3.141593e+00, 0.000000e+00 (slice_idx=0)
+	qurotxy QUBIT[1], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[0], QUBIT[1], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[1], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[2], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[1], QUBIT[2], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[2], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[3], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[2], QUBIT[3], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[3], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[4], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[3], QUBIT[4], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[4], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[5], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[4], QUBIT[5], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[5], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[6], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[5], QUBIT[6], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[6], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[7], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[6], QUBIT[7], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[7], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[8], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[7], QUBIT[8], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[8], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[9], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[8], QUBIT[9], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[9], 1.570796e+00, 1.570796e+00 (slice_idx=2)
+	return
+.Lfunc_end1:
+	.size	"_Z25void callGHZ<10>().QBB.1.v.stub", .Lfunc_end1-"_Z25void callGHZ<10>().QBB.1.v.stub"
+                                        // -- End function
+	.globl	"_Z25void callGHZ<15>().QBB.2.v.stub" // -- Begin function _Z25void callGHZ<15>().QBB.2.v.stub
+	.type	"_Z25void callGHZ<15>().QBB.2.v.stub",@function
+"_Z25void callGHZ<15>().QBB.2.v.stub":  // @"_Z25void callGHZ<15>().QBB.2.v.stub"
+// %bb.0:                               // %aqcc.quantum
+	quprep QUBIT[0] (slice_idx=1)
+	quprep QUBIT[1] (slice_idx=0)
+	quprep QUBIT[2] (slice_idx=0)
+	quprep QUBIT[3] (slice_idx=0)
+	quprep QUBIT[4] (slice_idx=0)
+	quprep QUBIT[5] (slice_idx=0)
+	quprep QUBIT[6] (slice_idx=0)
+	quprep QUBIT[7] (slice_idx=0)
+	quprep QUBIT[8] (slice_idx=0)
+	quprep QUBIT[9] (slice_idx=0)
+	quprep QUBIT[10] (slice_idx=0)
+	quprep QUBIT[11] (slice_idx=0)
+	quprep QUBIT[12] (slice_idx=0)
+	quprep QUBIT[13] (slice_idx=0)
+	quprep QUBIT[14] (slice_idx=0)
+	qurotxy QUBIT[0], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[0], 3.141593e+00, 0.000000e+00 (slice_idx=0)
+	qurotxy QUBIT[1], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[0], QUBIT[1], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[1], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[2], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[1], QUBIT[2], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[2], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[3], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[2], QUBIT[3], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[3], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[4], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[3], QUBIT[4], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[4], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[5], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[4], QUBIT[5], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[5], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[6], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[5], QUBIT[6], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[6], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[7], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[6], QUBIT[7], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[7], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[8], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[7], QUBIT[8], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[8], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[9], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[8], QUBIT[9], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[9], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[10], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[9], QUBIT[10], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[10], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[11], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[10], QUBIT[11], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[11], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[12], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[11], QUBIT[12], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[12], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[13], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[12], QUBIT[13], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[13], 1.570796e+00, 1.570796e+00 (slice_idx=0)
+	qurotxy QUBIT[14], 1.570796e+00, 4.712389e+00 (slice_idx=0)
+	qucphase QUBIT[13], QUBIT[14], 3.141593e+00 (slice_idx=0)
+	qurotxy QUBIT[14], 1.570796e+00, 1.570796e+00 (slice_idx=2)
+	return
+.Lfunc_end2:
+	.size	"_Z25void callGHZ<15>().QBB.2.v.stub", .Lfunc_end2-"_Z25void callGHZ<15>().QBB.2.v.stub"
+                                        // -- End function
+	.section	".note.GNU-stack","",@progbits
